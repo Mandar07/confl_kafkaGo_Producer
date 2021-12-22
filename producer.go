@@ -41,7 +41,7 @@ func produce(ctx context.Context) {
 		}
 	}()
 
-	topic := "selftuts" // topic must exit or use adminClient to create one
+	topic := "topic_name" // topic must exit or use adminClient to create one
 	topicPartition := kafka.TopicPartition{
 		Topic:     &topic,
 		Partition: 0,
