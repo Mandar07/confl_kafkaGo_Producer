@@ -7,11 +7,6 @@ import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 )
 
-const (
-	topic  = "selftuts"
-	broker = "localhost:9092"
-)
-
 func main() {
 	ctx := context.Background()
 	produce(ctx)
